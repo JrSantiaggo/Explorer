@@ -1,0 +1,472 @@
+<<<<<<< HEAD
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    font-size: 62.5%;
+    --ff-title: 'Staatliches', cursive;
+    --ff-body: 'Palanquin', sans-serif;
+    --fs-title: 4rem;
+    --fs-body: 2rem;
+
+}
+
+body{
+    font-size: var(--fs-body);
+    font-family: var(--ff-body);
+    background: #EFF1FF;
+    height: 100vh;
+}
+
+
+h1, h2{
+    font-family: var(--ff-title);
+}
+
+.page{
+    max-width: 38.4rem;
+    margin: 0 auto;
+}
+
+header{
+    background: #8E9AAF;
+    text-align: center;
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+}
+
+header h1{
+    font-size: var(--fs-title);
+    line-height: 3.4rem;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding: 0.8rem 8.6rem;
+    background: #CBC0D3;
+}
+
+main{
+    display: grid;
+    gap: 3rem;
+    background: #EFF1FF;
+    padding: 3.2rem 3.2rem;
+    text-align: center;
+}
+
+main .text p{
+    color:#23053A;
+    max-width: 31.5rem;
+    font-size: var(--fs-body);
+    line-height: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+main img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+
+.img-wrapper{
+    position: relative;
+}
+
+.img-wrapper h2{
+    position: absolute;
+    top: 1.6rem;
+    right: 1.6rem;
+    padding: 1px 2.4rem;
+    background: #FEEAFA;
+    border-radius: 2rem;
+    color: #4A4E69;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.4rem;
+    letter-spacing: 0.05em;
+    height: 3.5rem;
+}
+
+main .img-wrapper img:hover{
+    transform: scale(1.1);
+}
+
+main .img-wrapper img{
+    transition: all 300ms;
+}
+main .img-wrapper{
+    cursor: pointer;
+    opacity: 0;
+    animation: downtop 1500ms 300ms forwards;
+}
+
+main .img-wrapper h2{
+    z-index: 2;
+    opacity: 0;
+    animation: topdown 1500ms 300ms forwards;
+}
+footer{
+    display: none;
+}
+
+@keyframes downtop{
+    0%{
+        transform: translateY(4.5rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes topdown{
+    0%{
+        transform: translateY(-8.5rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (min-width: 700px){
+   
+    .page{
+        max-width: 117rem;
+    }
+    main .text{
+        margin: 0 auto;
+        
+    }
+    main{
+        
+        
+        grid-template-areas: "TEXT TEXT"
+                             "PALETA PICOLE"
+                             "SHAKE PICOLE"
+                             "SHAKE PICOLE2"
+                             "MASSA PALETA2";
+    }
+
+    main div:nth-child(1){
+        grid-area: TEXT;
+    }
+    main div:nth-child(2){
+        grid-area: PALETA;
+
+    }
+    main div:nth-child(3){
+        grid-area: SHAKE;
+        
+    }
+    main div:nth-child(4){
+        grid-area: MASSA;
+    }
+    main div:nth-child(5){
+        grid-area: PICOLE;
+    }
+    main div:nth-child(6){
+        grid-area: PALETA2;
+    }
+    main div:nth-child(7){
+        grid-area: PICOLE2;
+    }
+   
+    
+}
+
+@media (min-width: 1000px){
+    
+    footer{
+        display: block;
+        position: absolute;
+        left: 50%;
+        bottom: 4.6rem;
+        font-family: var(--ff-body);
+        line-height: 2.8rem;
+        color: #4A4E69;
+    }
+    footer a{
+        text-decoration: none;
+        color: #4A4E69;
+        font-weight: bold;
+    }
+    main div:nth-child(8){
+        grid-area: FOOTER;
+    }
+    .container{
+        display: flex;
+        
+    }
+    .page{
+        max-width: 1200px;
+    }
+    header{
+        width: 40rem;
+    }
+
+    main .text{
+        position: absolute;
+        left: 5.4rem;
+        top: 33.3rem;
+        display: flex;
+        align-items: center;
+        max-width: 27.5rem;
+        
+    }
+
+    main .text p{
+        color: #FFFFFF;
+        line-height: 2rem;
+    }
+    .img-wrapper{
+        max-width: 25rem;
+    }
+    main{
+        padding: 4.4rem 4.8rem 9.4rem;
+        grid-template-areas: "PALETA SHAKE PALETA2"
+                             "PICOLE SHAKE PICOLE2"
+                             "PICOLE MASSA PICOLE2";
+    }
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    font-size: 62.5%;
+    --ff-title: 'Staatliches', cursive;
+    --ff-body: 'Palanquin', sans-serif;
+    --fs-title: 4rem;
+    --fs-body: 2rem;
+
+}
+
+body{
+    font-size: var(--fs-body);
+    font-family: var(--ff-body);
+    background: #EFF1FF;
+    height: 100vh;
+}
+
+
+h1, h2{
+    font-family: var(--ff-title);
+}
+
+.page{
+    max-width: 38.4rem;
+    margin: 0 auto;
+}
+
+header{
+    background: #8E9AAF;
+    text-align: center;
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+}
+
+header h1{
+    font-size: var(--fs-title);
+    line-height: 3.4rem;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding: 0.8rem 8.6rem;
+    background: #CBC0D3;
+}
+
+main{
+    display: grid;
+    gap: 3rem;
+    background: #EFF1FF;
+    padding: 3.2rem 3.2rem;
+    text-align: center;
+}
+
+main .text p{
+    color:#23053A;
+    max-width: 31.5rem;
+    font-size: var(--fs-body);
+    line-height: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+main img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+
+.img-wrapper{
+    position: relative;
+}
+
+.img-wrapper h2{
+    position: absolute;
+    top: 1.6rem;
+    right: 1.6rem;
+    padding: 1px 2.4rem;
+    background: #FEEAFA;
+    border-radius: 2rem;
+    color: #4A4E69;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.4rem;
+    letter-spacing: 0.05em;
+    height: 3.5rem;
+}
+
+main .img-wrapper img:hover{
+    transform: scale(1.1);
+}
+
+main .img-wrapper img{
+    transition: all 300ms;
+}
+main .img-wrapper{
+    cursor: pointer;
+    opacity: 0;
+    animation: downtop 1500ms 300ms forwards;
+}
+
+main .img-wrapper h2{
+    z-index: 2;
+    opacity: 0;
+    animation: topdown 1500ms 300ms forwards;
+}
+footer{
+    display: none;
+}
+
+@keyframes downtop{
+    0%{
+        transform: translateY(4.5rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes topdown{
+    0%{
+        transform: translateY(-8.5rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (min-width: 700px){
+   
+    .page{
+        max-width: 117rem;
+    }
+    main .text{
+        margin: 0 auto;
+        
+    }
+    main{
+        
+        
+        grid-template-areas: "TEXT TEXT"
+                             "PALETA PICOLE"
+                             "SHAKE PICOLE"
+                             "SHAKE PICOLE2"
+                             "MASSA PALETA2";
+    }
+
+    main div:nth-child(1){
+        grid-area: TEXT;
+    }
+    main div:nth-child(2){
+        grid-area: PALETA;
+
+    }
+    main div:nth-child(3){
+        grid-area: SHAKE;
+        
+    }
+    main div:nth-child(4){
+        grid-area: MASSA;
+    }
+    main div:nth-child(5){
+        grid-area: PICOLE;
+    }
+    main div:nth-child(6){
+        grid-area: PALETA2;
+    }
+    main div:nth-child(7){
+        grid-area: PICOLE2;
+    }
+   
+    
+}
+
+@media (min-width: 1000px){
+    
+    footer{
+        display: block;
+        position: absolute;
+        left: 50%;
+        bottom: 4.6rem;
+        font-family: var(--ff-body);
+        line-height: 2.8rem;
+        color: #4A4E69;
+    }
+    footer a{
+        text-decoration: none;
+        color: #4A4E69;
+        font-weight: bold;
+    }
+    main div:nth-child(8){
+        grid-area: FOOTER;
+    }
+    .container{
+        display: flex;
+        
+    }
+    .page{
+        max-width: 1200px;
+    }
+    header{
+        width: 40rem;
+    }
+
+    main .text{
+        position: absolute;
+        left: 5.4rem;
+        top: 33.3rem;
+        display: flex;
+        align-items: center;
+        max-width: 27.5rem;
+        
+    }
+
+    main .text p{
+        color: #FFFFFF;
+        line-height: 2rem;
+    }
+    .img-wrapper{
+        max-width: 25rem;
+    }
+    main{
+        padding: 4.4rem 4.8rem 9.4rem;
+        grid-template-areas: "PALETA SHAKE PALETA2"
+                             "PICOLE SHAKE PICOLE2"
+                             "PICOLE MASSA PICOLE2";
+    }
+>>>>>>> c4cfafbeb35fdc6f4c0270bdeed1ec09422cc7d3
+}

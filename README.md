@@ -19,6 +19,8 @@ Tecnologias abordadas ao longo do programa:
 - SQL
 - Bibliotecas e frameworks
 - React.js
+- ApiRest
+- Testes Automatizados
 
 
 # ⌨️ Projetos desenvolvidos no Explorer!

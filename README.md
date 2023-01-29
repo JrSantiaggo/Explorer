@@ -25,19 +25,12 @@ Tecnologias abordadas ao longo do programa:
 
 # ⌨️ Projetos desenvolvidos no Explorer!
 
-
-## 🎨 Projetos Front-end 
-
-[IMC-Calculator](https://github.com/JrSantiaggo/IMC-Calculator)
-[fORTUNE-Cookie](https://github.com/JrSantiaggo/BiscoitoDaSorte)
-
-
-
-
-## 📡  Projetos Back-end 
-
-
-🚧 EM ANDAMENDO 🚧
+- [IMC-Calculator](https://github.com/JrSantiaggo/IMC-Calculator)
+- [Fortune-Cookie](https://github.com/JrSantiaggo/BiscoitoDaSorte)
+- [Guessing-Game](https://github.com/JrSantiaggo/GuessingGame)
+- [Focus-Timer](https://github.com/JrSantiaggo/FocusTimer)
+- [SPA-Universe](https://github.com/JrSantiaggo/SPA-Universe)
+- [GIT-Fav](https://github.com/JrSantiaggo/Git-Fav)
 
 
 

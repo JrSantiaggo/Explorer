@@ -28,7 +28,8 @@ Tecnologias abordadas ao longo do programa:
 
 ## 🎨 Projetos Front-end 
 
-🚧 EM ANDAMENDO 🚧
+[IMC-Calculator](https://github.com/JrSantiaggo/IMC-Calculator)
+[fORTUNE-Cookie](https://github.com/JrSantiaggo/BiscoitoDaSorte)
 
 
 
